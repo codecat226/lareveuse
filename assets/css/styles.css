@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@100&display=swap');
+
+.first-page {
+	background-image: url("../images/ring-background.png");
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background: rgba(57, 55, 55, 0.32); */
+}
+
+.second-page {
+	background-image: url("../images/girl-background.png");
+	width: 100%;
+	height: auto;
+	min-height: 100vh;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+    overflow-x:hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	position: absolute;
+	/* margin: 20px; */
+	width: 100%;
+	text-align: center;
+	/* padding-top: 36px; */
+}
+
+ul {
+	display: inline-block;
+	padding: 94px 0px 584px 70px; 
+}
+.navbar li {
+	list-style-type: none;
+	font-style: normal;
+	display: inline;
+	width: 100%;
+	text-align: center;
+	padding: 60px;
+	font-size: 20px;
+	white-space: nowrap;
+}
+
+.navbar a {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+	position: absolute;
+}
+
+h1 {
+	color:#DEE6ED;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 83px;
+	padding: 171px 460px 369px 246px;
+}
+
+h2 {
+	color: #E9E2E2;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 159.12%;
+	padding: 380px 710px 140px 245px;
+}
+
+.topbar a {
+	background: none;
+	border: none;
+}
+
+header {
+	width: 100%;
+}
+
+
+
+#main-logo {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 36.1429px;
+	line-height: 127.8%;
+	color: #DEE6ED;
+	margin: 0;
+	padding-top: 12px;
+	display: block;
+	text-align: center;
+}
+
+.header-left a {
+	float: left;
+}
+
+#customer {
+	width: 30px;
+	height: 26px;
+	display: inline;
+}
+
+#search {
+	width: 30px;
+	height: 26px;
+	display: inline;
+
+}
+
+#shopping {
+	width: 30px;
+	height: 26px;
+	display: inline;
+}
+
+.first-icons button {
+	background: none;
+	border: none;
+	color: #E9E2E2;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+/* .instagram-button {
+	padding: 618px 795px 58px 486px;
+} */
+
+.youtube-button {
+	padding: 615.89px 1167.29px 61.18px 238.46px;
+	white-space: nowrap;
+}
+
+#instagram {
+	vertical-align: middle;
+}
+
+#youtube {
+	vertical-align: middle;
+}
+
+.third-page {
+	width: 100%;
+	clear: both;
+}
+
+.third-left {
+	float: left;
+	width: 40%;
+}
+
+.third-right {
+	float: right;
+	width: 60%;
+}
+
+#map {
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	min-height: 100vh;	
+}

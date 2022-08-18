@@ -19,8 +19,6 @@ html {
 .first-page {
 	background-image: url("../images/ring-background.png");
 	width: 100%;
-	/* height: auto;
-	min-height: 100vh;	 */
 	height: auto;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -146,18 +144,6 @@ body {
 	margin-top: 6rem;
 }
 
-.second-page {
-	background-image: url("../images/girl-background.png");
-	width: 100%;
-	height: auto;
-	min-height: 100vh;	
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-
-
 h1 {
 	color:#DEE6ED;
 	font-style: normal;
@@ -198,19 +184,66 @@ button.youtube-button {
 	vertical-align: middle;
 }
 
-.third-page {
+.second-page {
+	background-image: url("../images/girl-background.png");
 	width: 100%;
-	clear: both;
+	min-height: 100vh;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
-.third-left {
-	float: left;
-	width: 40%;
+button.play {
+	position: absolute;
+	right: 3%;
+	top: 6%;
+	border: none;
+	background-color: transparent;
 }
 
-.third-right {
-	float: right;
-	width: 60%;
+button.play h3 {
+	display: inline;
+	color: black;
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+button.play img {
+	vertical-align: middle;
+}
+
+
+.third-page {
+	display: grid;
+	grid-template-columns: 37.6% 62.4%;
+	background-color: #C4C4C44F;
+}
+
+.third-page__address {
+	/* display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column; */
+	width: 100%;
+}
+
+.third-page__address h3 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 29px;
+	line-height: 39px;
+	font-variant: small-caps;
+	color: #393737;
+	margin: 7.7rem 10.5rem 5rem 12rem;
+}
+
+.third-page__map {
+	position: relative;
 }
 
 #map {
@@ -219,5 +252,95 @@ button.youtube-button {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: auto;
-	min-height: 100vh;	
+	min-height: 100vh;
+}
+
+#pin {
+	position: absolute;
+	top: 34%;
+	left: 52%;	
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	margin-right: 12.56rem;
+	margin-left: 12rem;
+}
+
+.dropdown__content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+}
+
+.dropdown__content a {
+	color: black;
+	display: block;
+}
+
+.dropdown__button {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	border: none;
+	background-color: transparent;
+	font-variant: small-caps;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown:hover .dropdown__content {
+	display: block;
+}
+
+.dropdown__div {
+	padding-bottom: 0.9rem;
+}
+
+button.dropdown.img {
+	display: inline;
+}
+
+button.find-button {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18.1818px;
+	line-height: 2.4rem;
+	font-variant: small-caps;
+	color: #393737;
+	padding: 1rem 7.1rem 1.9rem 7.1rem;
+	background-color: transparent;
+	border: 0.1rem solid #393737;
+	margin: 9.1rem 12.1rem 16.5rem 12rem;
+}
+
+.scroll {
+	width: 100%;
+}
+
+.scroll button {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24.4898px;
+	line-height: 33px;
+	font-variant: small-caps;
+	color: rgba(0, 0, 0, 0.61);
+	border: none;
+	background-color: transparent;
+	display: block;
+	margin-left: 11.6rem;
+
+}
+
+#scroll-icon {
+	display: block;
+	height: 11.65px;
+	width: 25.13px;
+	margin-left: 25.6rem;
+	margin-top: 2.3rem;
+	
 }

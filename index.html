@@ -3,6 +3,8 @@
 	<head>
 		<title>La Reveuse</title>
 		<link rel="stylesheet" href="./assets/css/styles.css">
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 	<body>
@@ -11,44 +13,47 @@
 			<div class="top-container">
 				<header class="topbar">
 					<div class="header-left">
-						<a><img id="customer" src="./assets/icons/Customer.png"></a>
-						<a><img id="search" src="./assets/icons/Search.png"></a>
-						<a><img id="shopping" src="./assets/icons/Shopping Bag.png"></a>
+						<input type="search" class="search-bar">
+						<a><img id="search" src="./assets/icons/Search.svg"></a>
 					</div>
-					<div>
+					<div class=" topbar__mainlogo">
+						<img src="./assets/icons/Kite Shape.svg" alt="diamond-detail" class="main-logo-detail">
 						<a class="main-logo"><i>La </i>Rêveuse</a>
 					</div>
-					<button class="lang-dropdown">
-						<a><img id="lang" src="./assets/icons/Globe.png"></a>
-						<span class="portuguese">PT</span>
-						<img src="./assets/icons/Polygon 2.png"/>
-					</button>
+					<div class="header-right">
+						<button class="lang-dropdown">
+							<a><img id="lang" src="./assets/icons/Globe.svg"></a>
+							<span class="english">EN</span>
+						</button>
+						<a><img id="customer" src="./assets/icons/Customer.svg"></a>
+						<a><img id="shopping" src="./assets/icons/Shopping Bag.svg"></a>
+					</div>
 				</header>
 				<nav>
 					<ul class="navbar">
-						<li><a href="#">About Us</a></li>
 						<li><a href="#">Accessories</a></li>
 						<li><a href="#">Perfume</a></li>
 						<li><a href="#">Jewellery</a></li>
 						<li><a href="#">On Sale</a></li>
 						<li><a href="#">Blog</a></li>
+						<li><a href="#">Boutiques</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="carousel">
 				<h1>YOUR <i>CHIC</i> JOURNEY IS<br/> ABOUT TO START</h1>
-				<h2>Boutique chain with a great variety of <br/>luxury jewellery, accessories and perfume <br/>both online and offline.<br/><br/>
-				WELCOME ON BOARD.</h2>			
-				<div class="media-icons">
-					<button class="youtube-button"><img src="./assets/icons/YouTube.png" id="youtube" alt="youtube-icon">GOTTA WATCH IT</button>
-					<button><img src="./assets/icons/Instagram.png"  id="instagram" alt="instagram-icon">FOLLOW THE RABBIT</button>
+				<h2>Boutique chain with a great variety of luxury<br/>items both online and offline.</h2>
+				<div class="carousel__icons">
+					<button class="youtube-button"><img src="./assets/icons/Location.svg" id="youtube" alt="youtube-icon">Based in São Paulo</button>
+					<button><img src="./assets/icons/Around the Globe.svg"  id="instagram" alt="instagram-icon">Ship across South America</button>
 				</div>
+				<button class="shop-new">SHOP NEW</button>		
 			</div>
 			</div>
 		</div>
 		<div class="second-page">
 			<button class="play">
-				<img src="./assets/icons/play.png" alt="play-button">
+				<img src="./assets/icons/play-button.svg" alt="play-button">
 				<h3>WATCH PRESENTATION</h3>
 			</button>
 		</div>
@@ -75,7 +80,7 @@
 			</div>
 			<div class="third-page__map">
 				<img src="./assets/images/map.png" alt="map of store" id="map">
-				<img src="./assets/icons/Location.png" alt="location pin" id="pin">
+				<img src="./assets/icons/Location-pin.png" alt="location pin" id="pin">
 			</div>
 		</div>
 		<div class="fourth-page">

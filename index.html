@@ -24,6 +24,7 @@
 						<button class="lang-dropdown">
 							<a><img id="lang" src="./assets/icons/Globe.svg"></a>
 							<span class="english">EN</span>
+							<img src="./assets/icons/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
 						</button>
 						<a><img id="customer" src="./assets/icons/Customer.svg"></a>
 						<a><img id="shopping" src="./assets/icons/Shopping Bag.svg"></a>
@@ -44,8 +45,8 @@
 				<h1>YOUR <i>CHIC</i> JOURNEY IS<br/> ABOUT TO START</h1>
 				<h2>Boutique chain with a great variety of luxury<br/>items both online and offline.</h2>
 				<div class="carousel__icons">
-					<button class="youtube-button"><img src="./assets/icons/Location.svg" id="youtube" alt="youtube-icon">Based in São Paulo</button>
-					<button><img src="./assets/icons/Around the Globe.svg"  id="instagram" alt="instagram-icon">Ship across South America</button>
+					<button class="location-button"><img src="./assets/icons/Location.svg" id="location" alt="location-icon">Based in São Paulo</button>
+					<button><img src="./assets/icons/Around the Globe.svg"  id="globe" alt="globe-icon">Ship across South America</button>
 				</div>
 				<button class="shop-new">SHOP NEW</button>		
 			</div>
@@ -58,92 +59,58 @@
 			</button>
 		</div>
 		<div class="third-page">
-			<div class="third-page__address">
-				<h3>FIND OUR BOUTIQUES</h3>
-				<div class="dropdown">
-					<div class="dropdown__div">
-						<button class="dropdown__button">PICK THE ADDRESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-						<img src="./assets/icons/Polygon_address.png" alt="dropdown"/>
-					</div>
-					<hr/>
-					<div class="dropdown__content">
-						<a href="#">Address 1</a>
-						<a href="#">Address 2</a>
-						<a href="#">Address 3</a>
-					</div>
-				</div>
-				<button class="find-button">FIND THE STORE</button>
-				<div class="scroll">
-					<button>SCROLL DOWN FOR MORE</button>
-					<img src="./assets/icons/Union.png" alt="scroll-icon" id="scroll-icon">
-				</div>
+			<div class="third-page__article">
+				<p class="article-header">WILD, FUNKY, BOHO</p>
+				<p class="article-desc">Our leather newcomes to fall in<br/>love with</p>
+				<img src="./assets/images/model.png" alt="model wearing leather jacket" class="article-img">
 			</div>
-			<div class="third-page__map">
-				<img src="./assets/images/map.png" alt="map of store" id="map">
-				<img src="./assets/icons/Location-pin.png" alt="location pin" id="pin">
+			<div class="third-page__article">
+				<p class="article-header">ART NOUVEAU</p>
+				<p class="article-desc">Legendary niche perfumes to buy<br />right away</p>
+				<img src="./assets/images/perfume.png" alt="perfume bottles" class="article-img">
 			</div>
+			<img src="./assets/icons/Union-2.svg" alt="arrow-left" class="arrow-left">
+			<img src="./assets/icons/Union.svg" alt="arrow-right" class="arrow-right">
 		</div>
 		<div class="fourth-page">
-			<div class="fourth-page__left">
-				<img src="./assets/images/guy.png" alt="man in sunglasses">
+			<div class="fourth-page__overlay">
+			<div class="fourth-page__text">
+				<p>up to 30% off summer sale</p>
+				<button class="shop-now">SHOP NOW</button>	
 			</div>
-			<div class="fourth-page__right">
-				<button><strong class="button-emphasis">NEW</strong> COLLECTIONS TO BE OUT THIS MONTH</button>
-				<button>GET <strong class="button-emphasis">INSPIRED</strong> WITH OUR BLOG</button>
-				<button>MORE!MORE!MORE! NOW <strong class="button-emphasis">ON SALE</strong></button>
-			</div>
-			<div class="fourth-page__bot">
-				<img src="./assets/icons/Union-left.png" alt="left-arrow-button" class="arrow-buttons left-arrow"/>
-				<div class="bot-content">
-					<img src="./assets/images/wild.png" alt="model 1">
-					<div class="bot-content__text">
-						<p>Wild, Funky, Boho:</p>
-						<br/>
-						<p>Our leather newcomes to<br/>fall in love with</p>
-					</div>
-				</div>
-				<div class="bot-content">
-					<img src="./assets/images/perfume.png" alt="perfume bottles">
-					<div class="bot-content__text">
-						<p>Art Nouveau:</p>
-						<br/>
-						<p>5 legendary niche<br/>perfumes to buy right<br/>away</p>
-					</div>
-				</div>
-				<div class="bot-content">
-					<img src="./assets/images/basics.png" alt="model 2">
-					<div class="bot-content__text">
-						<p>BACK TO BASICS:</p>
-						<br/>
-						<P>3 stunning<br/>minimalist outfits<br/>ready to wear</P>
-					</div>
-				</div>
-				<img src="./assets/icons/Union-right.png" alt="right-arrow-button" class="arrow-buttons right-arrow"/>
 			</div>
 		</div>
 		<footer>
 			<div class="footer__left">
-				<p class="footer-logo"><i>La </i>Rêveuse</p>
-				<p>Fashion enthusiasm the way it is.<br/>Since 2017.</p>
+				<div class="footer__left-logo">
+					<p class="footer-logo"><i>La </i>Rêveuse</p>
+					<img src="./assets/icons/Kite Shape.svg" alt="diamond-detail" class="footer-logo-detail">
+				</div>
+				<p>Since 2017. Based in São Paulo.<br/>Ship across South America. </p>
+				<button class="eng-dropdown">
+					<a><img id="lang" src="./assets/icons/Globe.svg"></a>
+					<span class="footer-en">ENGLISH</span>
+					<img src="./assets/icons/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+				</button>
 				<nav>
 					<ul class="footer-nav">
-						<li>My Profile</li>
-						<li>Back to Navigation</li>
-						<li>New in Store</li>
+						<li>Accessories</li>
+						<li>Boutiques</li>
+						<li>Perfume</li>
 						<li>Our Jobs</li>
-						<li>On Sale</li>
+						<li>Jewellery</li>
 						<li>User Agreement</li>
-						<li>Find a Store</li>
-						<li></li>
+						<li>On Sale</li>
+						<li>Help&Information</li>
 					</ul>
 				</nav>	
 			</div>
 			<div class="footer__right">
 				<p>Let's stay in touch!</p>
 				<form action="POST" class="email-form">
-					<label for="email">Leave your email and we will be gently updating <br/>you on our small pretty things
-						<input type="email" id="email" placeholder="name@mail.com">
-						<hr/>
+					<label for="email">Leave your email and we will be gently <br/>updating you on our small pretty things.
+						<input type="email" id="email" placeholder=" name@mail.com">
+					<hr/>
 						<button class="subscribe-button">SUBSCRIBE ME</button>
 					</label>
 				</form>

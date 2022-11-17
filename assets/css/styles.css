@@ -62,8 +62,8 @@ body {
 .main-logo-detail {
 	position: absolute;
 	width: 1.2rem;
-	left: 43.9%;
-	bottom: 77%;
+	left: 44.5%;
+	bottom: 76%;
 }
 
 .top-container {
@@ -94,7 +94,7 @@ body {
 .english {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 1.6rem;
 	vertical-align: middle;
 	text-decoration: underline;
@@ -121,8 +121,7 @@ input.search-bar {
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
-    border-bottom: #FFFFFF;
-    border-bottom-style: solid;
+    border-bottom: 1px solid #FFFFFF;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -179,6 +178,11 @@ input.search-bar:focus {
 	font-weight: 400;
 	font-size: 2rem;
 	line-height: 2.4rem;
+	transition: 0.4s;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
 }
 
 /* CAROUSEL */
@@ -246,6 +250,13 @@ button.shop-new {
 	font-size: 2.1rem;
 	line-height: 2.8rem;
 	font-variant: small-caps;
+	transition: 0.3s;
+}
+button.shop-new:hover {
+	background-color: #393737;
+	color: #DEE6ED;
+	cursor: pointer;
+	border: 1px solid #DEE6ED;
 }
 
 /* SECOND SECTION */
@@ -345,7 +356,8 @@ button.play img {
 }
 
 .fourth-page__overlay {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.8);
+	z-index: -1;
 	width: 100%;
 	height: 821px;
 }
@@ -384,6 +396,14 @@ button.shop-now {
 	line-height: 2.8rem;
 	font-variant: small-caps;
 	margin-top: 2.5rem;
+	transition: 0.3s;
+}
+
+button.shop-now:hover {
+	background-color: #393737;
+	color: #E9E2E2;
+	cursor: pointer;
+	border: 1px solid #E9E2E2;
 }
 
 /* FOOTER */
@@ -433,7 +453,7 @@ footer {
 .footer-logo-detail {
     position: absolute;
     width: 1.2rem;
-    left: 18.8%;
+    left: 17.8%;
 	bottom: 77%;
 }
 
@@ -466,7 +486,7 @@ button.eng-dropdown {
 .footer-en {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 1.6rem;
 	vertical-align: middle;
 	text-decoration: underline;
@@ -520,7 +540,13 @@ button.eng-dropdown {
 	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2.8rem;
-	/* margin-bottom: 6.1rem; */
+	transition: 0.3s;
+}
+
+.subscribe-button:hover {
+	background-color: #393737;
+	color: #E9E2E2;
+	cursor: pointer;
 }
 
 #email {
